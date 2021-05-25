@@ -1,0 +1,8 @@
+.form {
+    $root: &;
+    padding: 48px;
+
+    &__imput {
+        margin-bottom: 20px;
+    }
+}

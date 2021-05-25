@@ -1,0 +1,26 @@
+.input {
+    $root: &;
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+
+    input {
+        width: 100%;
+        color: $black;
+        font-size: 16px;
+        line-height: 1.2;
+        border: 1px solid black;
+        padding: 8px 16px;
+        outline: none;
+
+        &::placeholder {
+            color: $gray;
+            font-size: 16px;
+        }
+    }
+
+    &__label {
+        margin-bottom: 18px;
+        padding-left: 6px;
+    }
+}

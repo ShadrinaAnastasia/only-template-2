@@ -1,0 +1,8 @@
+mixin form(props)
+    form.form&attributes(attributes)
+        +input({name:'name', label:'Имя', placeholder:'Имя', required:true}).form__input
+        +input({name:'surname', label:'Фамилия', placeholder:'Фамилия', required:true}).form__input
+        +input({name:'telephone', label:'Телефон', placeholder:'Телефон', required:true}).form__input
+        +input({name:'email', label:'Email', placeholder:'Email', required:true}).form__input
+        +input({name:'message', label:'Сообщение', placeholder:'Сообщение'}).form__input
+        +form-button({text:'Отправить', disabled:true})
